@@ -102,7 +102,7 @@ function convert(){
 				}
 			}
 			// Remove last comma and add a parenthesis
-			previousStatement = previousStatement.slice(0, previousStatement.length - 1) + ");";
+			previousStatement = previousStatement.slice(previousStatement.length - 1) + ");";
 		}
 
 		// Write command to output file and add a new line \n :
